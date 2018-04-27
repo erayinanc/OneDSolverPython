@@ -1,10 +1,10 @@
 #!/usr/bin/python
 # 1d scalar transport
-# by Eray inanc
+# by Eray Inanc (eray.inanc@uni-due.de)
 # transport two predefined profiles (sin and top-hat)
-# Three numerical schemes for convective fluxes are considered, easily extendable
-# A profile for velocity can also be given instead of a fixed value 
-# Default settings: CFL=0.25, D=1e-5, delta=0.2e-3, u=1
+# three numerical schemes for convective fluxes are considered, easily extendable
+# a profile for velocity can also be given instead of a fixed value 
+# default settings: CFL=0.25, D=1e-5, delta=0.2e-3, u=1
 # you need numpy library for computation, matplotlib library for post-proc 
 
 # libraries
